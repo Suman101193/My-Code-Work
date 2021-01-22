@@ -1,0 +1,722 @@
+body{
+	background-color:#f2f2f2;
+	
+}
+.spin img{
+  transition: 0.50s;
+  -webkit-transition: 0.50s;
+  -moz-transition: 0.50s;
+  -ms-transition: 0.50s;
+  -o-transition: 0.50s;
+	height:50px;
+	width:10%;
+	margin-top:1%;
+}
+
+.spin img:hover {
+  transition: 0.50s;
+  -webkit-transition: 0.50s;
+  -moz-transition: 0.50s;
+  -ms-transition: 0.50s;
+  -o-transition: 0.50s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+} 
+.spin{
+	float:right;
+}
+.bottomLogos img{
+	margin-right:0.10%;
+	transition: 0.50s;
+  -webkit-transition: 0.50s;
+  -moz-transition: 0.50s;
+  -ms-transition: 0.50s;
+  -o-transition: 0.50s;
+	height:100%;
+	width:1%;
+	margin-top:0.40%;
+}
+.bottomLogos img:hover{
+	  transition: 0.50s;
+  -webkit-transition: 0.50s;
+  -moz-transition: 0.50s;
+  -ms-transition: 0.50s;
+  -o-transition: 0.50s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+	
+
+
+
+.checkmark{clear:both;}
+
+footer p{
+	text-align:center;
+	color:#7E726F;
+	
+}
+
+/* for adjusting book logo in the centre */
+.logoinbody {
+	height:100px;
+	width:100px;
+
+	float:center;
+	margin:0.1%;
+	margin-top:0%;
+	margin-left:0%;	
+}
+#icons_{
+		border-radius:50%;
+	float:right;
+	height:50px;
+	width:50px;
+}
+.logoinbody{
+	height:auto;
+	width:300px;
+	border-radius:0%;	
+	
+}
+#bottomPic{
+	position:relative;
+	margin-left:45%;
+	height:100%;
+	width:18%;
+
+}
+	
+
+
+/*  for all links  to have text decoration none*/
+a:link{
+text-decoration:none;}
+
+
+/* for all links in footer that are continuous in a line */
+.a_decoration a:hover{
+  text-decoration: none;
+  font-size:1em;
+  border:1px solid black;
+  border-radius:25%;
+  padding:0.5%;
+  background-color:#C3D1F9;
+}
+
+
+/* to go up and down in the page */
+.pageupdownlink,#bottomButton {
+	float:right;
+	margin-right:0.5%;
+	padding:1%;
+	border: 2px dotted pink;
+	text-decoration:none;
+	background-color:#AFEDEE;
+	color:#F448E7;
+}
+
+.pageupdownlink a:hover{
+	color:black;
+	background-color:#ffcccc;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* last 2nd part of the body */
+
+
+
+.stars{
+	color:yellow;
+	font-size:200%;
+}
+h3, h2{
+	cursor:pointer;
+	color:#3A8AA6;
+	padding-left:10px;}
+h2{
+	text-align:center;
+}
+h2:hover, h3:hover{
+color:green;
+}
+
+.authorName{
+color:green;}
+.authorName:hover{
+	font-weight:bold;
+
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* sandeep css for header */
+
+.mobNo{
+	padding-top:0;
+	font-weight:bold;
+	font-size:200%;
+	float:right;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* sandeep css end of header */
+
+/* menus */
+
+.unorderl ul{
+	margin:0%;
+	padding:0%;
+	list-style:none;
+	text-decoration:none;
+
+}
+.unorderl ul li {
+	
+	float:left;
+	width:11%;
+	height:100%;
+	background-color:black;
+	opacity:.8;
+	line-height:100%;
+	text-align:center;
+	list-style:none;
+	padding:1%;
+}	
+	
+
+/*.unorderl ul li ul{
+	
+	float:left;
+	width:2%;
+	height:100%;
+	background-color:black;
+	opacity:.8;
+	line-height:100%;
+	text-align:center;
+	list-style:none;
+	
+}
+.unorderl ul li ul li{
+	float:none;
+	background-color:black;
+}
+*/
+.unorderl ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+.unorderl ul li a:hover{
+	background-color:brown;
+}
+/*.unorderl ul li ul li{
+	display:none;
+}
+.unorderl ul li:hover ul li{
+	display:block;
+}*/
+.unorderl{
+	margin-top:-0.2%;       /* */
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/* background image and text upon it  */
+div.background {
+  background: url(student.jpg);
+  background-repeat:no-repeat;
+  border: 2px solid black;
+	background-size:cover;
+	height:550px;
+	
+}
+
+div.transbox {
+	cursor:pointer;
+  margin-left: 30%;
+  margin-right:15%;
+  margin-top: 15%;
+  background-color: #02453F;
+  opacity: 0.4;
+  padding-bottom:0px;
+  border:none; 
+}
+div.transbox:hover{
+	opacity:.7;
+	background-color:#5C5C5C;
+	color:white;
+}
+
+div.transbox p {
+	
+	padding:15px;
+	padding-bottom:.01px;
+  font-weight: bold;
+  font-size:150%;
+  color: #FFFFFF;
+}
+.transbox a{
+	font-weight:bold;
+	opacity:.6;
+	float:right;
+	font-size:150%;
+	padding:1%;
+	background-color:#FAD300;
+	margin:1%;
+    text-decoration:none;
+	color:black;
+	position:relative;
+	right:15%;
+}
+.transbox a:hover{
+	
+    text-decoration:none;
+	color:#D7F1E6;
+	background-color:black;
+
+}
+.transbox.transboxAdditional a:hover{
+	background-color:#95ECE4;
+	color:#0D9C8F;
+}
+
+
+/* left side form css   */
+.rt {
+background-color:#d1d1e0;
+width:50%;
+padding:1%;
+float:left;
+}
+.fm{
+	width:70%;
+}
+.fm2{
+	width:8%;
+}
+ 
+.step {
+background-color:#CEF2F3;
+width:50%;
+padding:5%;
+float:left;
+text-align:center;
+}
+.step a:hover{
+     text-decoration: none;
+     font-size:1em;
+     border:1px solid black;
+     border-radius:40%;
+     padding:1%;
+	 
+ }
+ /* about us page in centre */
+.aboutus{
+	padding:3.5%;
+background-color:#E7D0F3;
+
+max-width:100%;
+text-align: justify;
+clear:both; 
+ } 
+ 
+ 
+ /*  black part   */
+ #blackPart{
+	background-color: black;
+	color:white;
+	margin-top:1%;
+}
+#blackPart img {
+  border-radius: 50%;
+  width:5%;
+  height:100%;
+}
+#blackPart img .cestar{
+width:20%;}
+#blackPart a{color:green;}
+#blackPart .inputs{
+    padding: 1%;
+	width:30%;
+	float:left;
+	line-height:100%;
+}
+#blackPart.consultation{align:center;}
+
+#blackPart .address{padding: 1%;}
+
+#blackPart .address{
+	
+	padding:1%;
+    width:33%;
+	line-height:100%;
+	top:50%;
+	margin-left:65%;
+	margin-top:5%;
+}
+.paragraph{align:center}
+.inputWidth{width:87%;}
+#emailWidth{width:87%;}
+#course{width:87%;
+}
+
+img#imageWidth {
+	border:solid block;
+	width:50%;
+	border-radius:0%;
+	
+}
+#blackPart {font-size:100%;}
+/* css for testimonial */
+
+
+#testimonialMainContainer{
+width:100%;}
+/* Slideshow container 
+.slideshow-container_t {
+  position: left;
+  background: #E9E8DF;
+  animation: animation 5s infinite;
+}
+
+/* Slides 
+.mySlides_t {
+  display: none;
+  padding: 15px;
+  padding-top:40px;
+  text-align: center;
+}
+
+/* Next & previous buttons 
+.prev_t, .next_t {
+  cursor: pointer;
+  position: absolute;
+  top: 347%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right 
+.next_t {
+  position: absolute;
+  right: 82%;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through 
+.prev_t:hover, .next_t:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container 
+.dot-container-t {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators 
+.dot_t{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle 
+.active, .dot_t:hover {
+  background-color: #717171;
+}*/
+
+
+
+@keyframes animation {
+  from {background-color: #E9E8DF;}
+  to {background-color: #E4BEF9;}
+}
+
+
+.span{
+	font-size:200%;
+}
+
+.authorName {
+	color: #0A6800;
+	font-weight:bold;
+
+	}
+	
+.maq1{
+
+	font-family:Book Antiqua;
+	color:#006181;
+	background-color:#C9DBE1;
+	height:100%;
+	width:49%;
+	scrollamount:14;
+}
+.maq2{
+	font-family:Book Antiqua;
+	color:white;
+	background-color:#006181;
+	
+	width:49%;
+	scrollamount:14;
+}
+	
+.authorSpan1{
+	color:#006181;
+}
+.authorSpan2{
+	color:white;
+}
+
+
+.mixColor{
+	background-color:#CEF2F3;
+}
+
+/********************************************************************************************************************/
+@media (max-width: 959px){
+		.logoinbody{
+		width:250px;
+	}
+
+		.unorderl ul li{
+	
+	float:none;
+	width:100%;
+	text-align:center;}
+	.unorderl ul li a{
+		text-align:center;
+	}
+		img.all_icons{
+		width:40px;
+		height:40px;
+		float:right;
+		display:block;
+		
+	}
+	.mobNo{
+		font-size:1.700em;
+		float:right;
+	}
+		.pageupdownlink,#bottomButton {
+	padding:5px;
+	}
+	.rt{
+		width:70%;
+		text-align:center;
+		float:left;
+	}
+	
+	
+	.step{
+		width:30%;
+		text-align:center;
+		float:left;
+		padding:3%;
+		max-width
+	} 
+	#ft{
+		min-width:100%;
+	}
+	#ft2{
+		min-width:100%;
+	}
+	#ft3{
+		min-width:100%;
+	}
+	#blackPart{
+		padding:1em;
+		height:auto;
+	}	
+	#blackPart .address{
+		margin:0;
+	}
+	img#imageWidth {
+		width:20%;
+	}
+	footer{padding:2em;}
+
+div.transbox {	
+  margin-right:50px;
+  margin-left:200px;
+  border:none; 
+  margin-top:
+}
+div.transbox p {
+	font-size:130%;
+	margin-top:25%:
+	
+}
+.transbox a{
+	font-size:140%;
+		right:10%;
+}
+.aboutus{
+	min-width:auto;
+	float:none;
+	margin-top:0;
+	clear:both;
+}
+#icons_{
+	height:40px;
+	width:40px;
+}
+}
+
+@media (max-width: 767px){
+		.logoinbody{
+		width:200px;
+	}
+			img.all_icons{
+		width:30px;
+		height:30px;
+		
+		display:block;
+	}
+	.mobNo{
+		font-size:1.200em;
+		float:right;
+		
+	}
+		.pageupdownlink,#bottomButton {
+	padding:4px;
+	}
+	.step{
+		padding:6%;
+	}
+	.rt{
+		line-height:1.56em;
+	}
+	
+div.transbox {
+  margin-top: 20%;
+  
+}
+.transbox a{
+	right:4%;
+	font-size:130%;
+	font-weight:bold;
+}
+div.transbox p {
+	font-size:110%;
+	margin-top:30%:
+	
+}
+#icons_{
+	height:30px;
+	width:30px;
+}
+
+}
+@media (max-width: 479px){
+		.logoinbody{
+		width:150px;
+	}
+			img.all_icons{
+		width:25px;
+		height:25px;
+		
+		display:block;
+	}
+	.mobNo{
+		font-size:1em;
+		float:right;
+		
+	}
+		.pageupdownlink,#bottomButton {
+	padding:3px;
+	}
+div.transbox p {	margin-top:35%:
+	
+}
+		div.transbox{
+			margin-left:10%;
+			margin-top:30%;
+			margin-right:2%;
+			
+		}
+			.transbox a{
+	font-size:120%;
+
+}
+	.step{
+width:50%;
+	}
+	.rt{
+width:50%;
+	}
+	#icons_{
+	height:35px;
+	width:35px;
+}	
+}
+@media only screen and (max-width: 375px)
+{
+			.logoinbody{
+		width:100px;
+	}
+			img.all_icons{
+		width:20px;
+		height:20px;
+		
+		display:block;
+	}
+	.mobNo{
+		font-size:0.8em;
+		float:none;
+		
+	}
+		.pageupdownlink,#bottomButton {
+	padding:0px;
+	}
+		.rt{
+		width:60%;
+		text-align:center;
+		float:left;
+	}
+	.step{
+
+font-size:.8em;
+width:40%;
+
+	} 
+	.rt h1{
+		font-size:1%;
+	}
+	#icons_{
+	height:30px;
+	width:30px;
+}
+
+}
+/*@media only screen and (max-width: 1190px){
+	.aboutus{
+		margin-top:-10em;
+	}
+	*/
